@@ -1,0 +1,7 @@
+[
+	{
+		"caption" : "Merge Tag...",
+		"command" : "git",
+		"args" : { "argv" : [ "merge", "$select_tag"] }
+	}
+]
