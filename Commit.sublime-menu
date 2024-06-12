@@ -6,4 +6,9 @@
         "command": "git",
         "args": {"argv": ["branch", "-a", "--contains", "$commit"]}
     },
+    {
+        "caption": "Show tag containing this commit...",
+        "command": "git",
+        "args": {"argv": ["describe", "--contains", "$commit"]}
+    },
 ]
